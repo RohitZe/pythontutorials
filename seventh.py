@@ -30,24 +30,30 @@
 #scope
 
 
-#return
+# function -->logic reuse
 
-# add ,multiply divide subtract % main() call krna hai result
-# percentage calcualtor 3 sub percentage
+# hello()
+
 
 
 
 def main():
-   x=int(input('enter the number? '))
-   print(square(x))
+    print('first line')
+    print(squaree(5))
+    print('second line')
 
-def square(x):
-    sq=x*x
-    return sq
+
+
+def squaree(num):
+    sqn= num*num
+    print(num)
+    return sqn
 
 
 
 
 main()
+
+
 
 
